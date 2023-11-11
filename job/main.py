@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import requests
 import pip
-pip.main(["install", "openpyxl"])
+# pip.main(["install", "openpyxl"])
 # Function to convert Excel to JSON
 def convert_excel_to_json(file):
     df = pd.read_excel(file)
