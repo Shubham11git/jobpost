@@ -8,7 +8,7 @@ def convert_excel_to_json(file):
     df = pd.read_excel(file)
     json_data = df.to_json(orient="records", lines=True)
     return json_data
-#hello
+
 # Function to submit JSON data to the API
 def submit_to_api(json_data, api_key):
     headers = {
